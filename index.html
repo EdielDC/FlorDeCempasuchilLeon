@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Flor de Cempasúchil | Desayunos y Comida Tradicional en León, Gto.</title>
+    <meta name="description" content="Auténticos desayunos mexicanos en León, Gto. Chilaquiles en barro, café de olla, enmoladas y tortillas de comal en un ambiente cálido y tradicional.">
+    <meta name="keywords" content="flor de cempasúchil restaurante, desayunos en león guanajuato, chilaquiles en león gto, comida mexicana león, restaurante tradicional">
+    <meta name="author" content="Flor de Cempasúchil">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts: Cormorant Garamond (Elegancia artesanal) y Montserrat (Lectura limpia) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link href="css/estilos.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+        <header class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#inicio">
+                <img src="img/logo.jpg" alt="Logotipo Flor de Cempasúchil" class="nav-logo-img me-2">
+                <span class="font-serif fs-4 text-white">Flor de Cempasúchil</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Abrir navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <section class="collapse navbar-collapse" id="menuNavegacion">
+                <ul class="navbar-nav ms-auto text-center py-2 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">El Restaurante</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Carta y Precios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Ambiente</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#visitanos">Ubicación</a></li>
+                </ul>
+            </section>
+        </header>
+    </nav>
+
+    <main>
+        <!-- Hero Header -->
+        <section id="inicio">
+            <header class="container">
+                <img src="img/logo.jpg" alt="Logotipo Oficial Flor de Cempasúchil" class="hero-logo-central">
+                <p class="hero-subtitle mb-2">Cocina Tradicional Mexicana</p>
+                <h1 class="display-3 mb-4">La calidez de un desayuno casero en León</h1>
+                <p class="lead col-lg-8 mx-auto text-light opacity-90 mb-5">
+                    Recetas de familia servidas en cazuela de barro, tortillas hechas al comal y café de olla en un patio acogedor.
+                </p>
+                <nav class="d-flex justify-content-center flex-wrap gap-3">
+                    <a href="#menu" class="btn-cempasuchil">Explorar Carta de Alimentos</a>
+                    <a href="https://wa.me/521234567890" target="_blank" rel="noopener noreferrer" class="btn-outline-custom">Ordenar por WhatsApp</a>
+                </nav>
+            </header>
+        </section>
+
+        <!-- Sección Nosotros e Identidad -->
+        <section id="nosotros" class="py-5">
+            <article class="container py-4">
+                <section class="row align-items-center g-5">
+                    <figure class="col-lg-6 mb-0">
+                        <img src="img/unnamed.webp" alt="Patio colonial con árbol y mesas rústicas de Flor de Cempasúchil" class="img-decorativa">
+                    </figure>
+                    <aside class="col-lg-6">
+                        <span class="text-uppercase tracking-wider text-muted small fw-bold">Sazón que abraza el alma</span>
+                        <h2 class="display-5 text-terracota mt-1 mb-4">Un rincón tradicional con sabor a hogar</h2>
+                        <p class="text-secondary leading-relaxed">
+                            En <strong>Flor de Cempasúchil</strong> rescatamos la memoria gastronómica de México. Nuestro espacio evoca la tranquilidad de las mañanas de provincia, donde el aroma del café de olla recién colado y las cazuelas sobre la mesa marcan el compás del día.
+                        </p>
+                        <p class="text-secondary leading-relaxed">
+                            Disfruta de nuestras mesas de madera bajo la sombra del patio central o en el comedor con barra de talavera, ideal para compartir en familia o tomar un respiro durante la semana.
+                        </p>
+                        <footer class="pt-2">
+                            <span class="badge bg-light text-dark border p-2 me-2">📍 León, Guanajuato</span>
+                            <span class="badge bg-light text-dark border p-2">🫓 Tortillas al momento</span>
+                            <span class="badge bg-light text-dark border p-2">☕ Taza de barro artesanal</span>
+                        </footer>
+                    </aside>
+                </section>
+            </article>
+        </section>
+
+        <!-- SECCIÓN MENÚ Y CARTA COMPLETA -->
+        <section id="menu" class="py-5" style="background-color: var(--color-hueso-card);">
+            <header class="container text-center mb-4">
+                <span class="hero-subtitle">Nuestra Mesa</span>
+                <h2 class="display-4 text-terracota mt-1 mb-2">Carta y Desayunos</h2>
+                <p class="text-secondary col-md-6 mx-auto">Ingredientes frescos preparados al momento con el auténtico toque casero de Guanajuato.</p>
+                <aside class="menu-banner-horario text-center col-md-8 mx-auto mt-4">
+                    <strong class="text-terracota">Horario de Desayunos:</strong> Martes a domingo de 8:30 am a 1:30 pm
+                </aside>
+            </header>
+
+            <section class="container">
+                <section class="row g-4">
+                    
+                    <!-- Columna 1: Huevos y Chilaquiles -->
+                    <article class="col-lg-6">
+                        <section class="menu-categoria-card">
+                            <h3>Huevos y Omelets</h3>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Huevos al gusto</span>
+                                    <span class="item-precio">$105</span>
+                                </div>
+                                <p class="item-desc">Rancheros, divorciados o revueltos con frijolitos de la olla y tortillas de comal.</p>
+                            </article>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Omelet Tradicional</span>
+                                    <span class="item-precio">$135</span>
+                                </div>
+                                <p class="item-desc">Queso Oaxaca o panela. 2 ingredientes a elegir: jamón de pavo, champiñones o chorizo (Ingrediente extra $15).</p>
+                            </article>
+
+                            <h3 class="mt-4">Chilaquiles en Cazuela</h3>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Chilaquiles Tradicionales</span>
+                                    <span class="item-precio">Desde $105</span>
+                                </div>
+                                <p class="item-desc">Salsas a elegir: Verdes, rojos o chile morita. Con crema, queso fresco, cebolla morada y rábano.</p>
+                                <p class="item-desc text-dark fw-medium">
+                                    • Sencillos: <strong>$105</strong> | Con Huevo: <strong>$115</strong> | Pollo: <strong>$140</strong> | Arrachera: <strong>$165</strong>
+                                </p>
+                            </article>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Chilaquiles de la Casa</span>
+                                    <span class="item-precio">Especialidad</span>
+                                </div>
+                                <p class="item-desc text-dark fw-medium mb-1">• En Crema de Poblano con pollo: <strong>$140</strong></p>
+                                <p class="item-desc text-dark fw-medium">• En Mole con pollo: <strong>$165</strong></p>
+                            </article>
+
+                            <h3 class="mt-4">Molletes</h3>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Molletes Caseros</span>
+                                    <span class="item-precio">Desde $95</span>
+                                </div>
+                                <p class="item-desc text-dark fw-medium">
+                                    • Sencillos con queso gratinado: <strong>$95</strong><br>
+                                    • Con Chilaquiles montados: <strong>$110</strong><br>
+                                    • Con Guisado tradicional: <strong>$125</strong>
+                                </p>
+                            </article>
+                        </section>
+                    </article>
+
+                    <!-- Columna 2: Especialidades, Enchiladas y Antojitos -->
+                    <article class="col-lg-6">
+                        <section class="menu-categoria-card">
+                            <h3>Especialidades y Cazuelas</h3>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Plato de Guisados (3 a elegir)</span>
+                                    <span class="item-precio">$165</span>
+                                </div>
+                                <p class="item-desc">Acompañado de frijoles refritos, 1 quesadilla y tortillas calientes de comal.</p>
+                            </article>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Sábana de Res</span>
+                                    <span class="item-precio">$175</span>
+                                </div>
+                                <p class="item-desc">Corte tierno acompañado de chilaquiles de la casa y frijoles refritos.</p>
+                            </article>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Enmoladas Especiales</span>
+                                    <span class="item-precio">$145</span>
+                                </div>
+                                <p class="item-desc">Mezcla artesanal de mole coloradito y mole negro. Rellenas de pollo o queso.</p>
+                            </article>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Enchiladas Verdes</span>
+                                    <span class="item-precio">$125</span>
+                                </div>
+                                <p class="item-desc">Rellenas de pollo o queso, bañadas en salsa verde cremosa de tomatillo.</p>
+                            </article>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Enjitomatadas</span>
+                                    <span class="item-precio">$125</span>
+                                </div>
+                                <p class="item-desc">Rellenas de pollo con salsa casera suave de jitomate sazonado.</p>
+                            </article>
+                            <article>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Enfrijoladas</span>
+                                    <span class="item-precio">$100</span>
+                                </div>
+                                <p class="item-desc">Bañadas en salsa de frijol negro sazonado y rellenas de queso fresco.</p>
+                            </article>
+
+                            <h3 class="mt-4">Antojitos y Guisados de Comal</h3>
+                            <article class="mb-2">
+                                <div class="item-linea">
+                                    <span class="item-nombre">Gorditas de comal</span>
+                                    <span class="item-precio">$45 c/u</span>
+                                </div>
+                                <div class="item-linea">
+                                    <span class="item-nombre">Quesadillas y Sopes</span>
+                                    <span class="item-precio">$50 c/u</span>
+                                </div>
+                                <p class="item-desc mb-1">
+                                    <strong>Guisados para rellenar:</strong> Chorizo, picadillo, rajas con crema, deshebrada, papas, chicharrón duro, prensado, nopales, pierna en salsa verde, bistec en chile pasilla y garbanzo.
+                                </p>
+                                <p class="item-desc text-terracota fw-medium">Tinga de pollo y pollo con mole: $60 c/u</p>
+                            </article>
+                        </section>
+                    </article>
+
+                    <!-- Fila 2: Bebidas, Postres y Menú Infantil -->
+                    <article class="col-md-4">
+                        <section class="menu-categoria-card">
+                            <h3>Bebidas Tradicionales</h3>
+                            <div class="item-linea"><span class="item-nombre">Café de Olla</span><span class="item-precio">Ch. $45 / Gde. $60</span></div>
+                            <p class="item-desc">Hervido en barro con canela y piloncillo natural.</p>
+
+                            <div class="item-linea"><span class="item-nombre">Chocolate Caliente</span><span class="item-precio">$70</span></div>
+                            <div class="item-linea"><span class="item-nombre">Atole del Día</span><span class="item-precio">$45</span></div>
+                            <div class="item-linea"><span class="item-nombre">Café Soluble (Refill)</span><span class="item-precio">$45</span></div>
+                            <div class="item-linea"><span class="item-nombre">Nespresso</span><span class="item-precio">$60</span></div>
+                            <div class="item-linea"><span class="item-nombre">Refresco Artesanal de Temporada</span><span class="item-precio">$50</span></div>
+                            <div class="item-linea"><span class="item-nombre">Jugo de Naranja o Zanahoria</span><span class="item-precio">$35</span></div>
+                            <div class="item-linea"><span class="item-nombre">Té (Manzanilla / Limón / Hierbabuena)</span><span class="item-precio">$35</span></div>
+                            <div class="item-linea"><span class="item-nombre">Refresco Embotellado / Agua</span><span class="item-precio">$33 / $25</span></div>
+                        </section>
+                    </article>
+
+                    <article class="col-md-4">
+                        <section class="menu-categoria-card">
+                            <h3>Panadería y Postres</h3>
+                            <div class="item-linea"><span class="item-nombre">Pastel de Elote Casero</span><span class="item-precio">$70</span></div>
+                            <p class="item-desc">Receta húmeda tradicional servida tibia.</p>
+
+                            <div class="item-linea"><span class="item-nombre">Hot Cakes con Fruta</span><span class="item-precio">$125</span></div>
+                            <div class="item-linea"><span class="item-nombre">Pan Francés</span><span class="item-precio">$100</span></div>
+                            <div class="item-linea"><span class="item-nombre">Plato de Fruta de Temporada</span><span class="item-precio">$80</span></div>
+                            <p class="item-desc">Con porción de granola artesanal y miel pura.</p>
+
+                            <div class="item-linea"><span class="item-nombre">Carlota Casera</span><span class="item-precio">$45</span></div>
+                            <div class="item-linea"><span class="item-nombre">Pan Dulce de Canasta</span><span class="item-precio">$25</span></div>
+                        </section>
+                    </article>
+
+                    <article class="col-md-4">
+                        <section class="menu-categoria-card tarjeta-infantil">
+                            <h3>Menú Infantil</h3>
+                            <div class="item-linea">
+                                <span class="item-nombre">Paquete Niños Completo</span>
+                                <span class="item-precio">$90</span>
+                            </div>
+                            <p class="item-desc">
+                                <strong>Incluye:</strong> Vaso de jugo, leche fría o chocomilk, porción de fruta fresca y 1 platillo a elegir:
+                            </p>
+                            <ul class="list-unstyled small text-secondary">
+                                <li class="py-1">✔ Huevo con salchicha o jamón</li>
+                                <li class="py-1">✔ Mini quesadillas con guisado casero</li>
+                                <li class="py-1">✔ Sincronizadas doraditas</li>
+                                <li class="py-1">✔ Mini Hot cakes con miel</li>
+                            </ul>
+                            <div class="text-center mt-4">
+                                <a href="https://wa.me/521234567890" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-cempasuchil w-100">Consultar Mesa o Pedido</a>
+                            </div>
+                        </section>
+                    </article>
+
+                </section>
+            </section>
+        </section>
+
+        <!-- Galería de Detalles e Instalaciones -->
+        <section id="galeria" class="py-5">
+            <header class="container text-center mb-5">
+                <span class="hero-subtitle">La Experiencia</span>
+                <h2 class="display-5 text-terracota mt-1">El sazón en imágenes</h2>
+            </header>
+            <section class="container">
+                <section class="row g-4">
+                    <figure class="col-md-4 mb-0">
+                        <img src="img/Galeria1.webp" alt="Hotcakes con fruta" class="img-decorativa" style="height: 280px;">
+                        <figcaption class="small text-muted text-center mt-2">Deliciosa combinación de sabores</figcaption>
+                    </figure>
+                    <figure class="col-md-4 mb-0">
+                        <img src="img/Galeria2.webp" alt="Salón interior con iluminación cálida y figura tradicional de catrina" class="img-decorativa" style="height: 280px;">
+                        <figcaption class="small text-muted text-center mt-2">Ambiente cálido y acogedor</figcaption>
+                    </figure>
+                    <figure class="col-md-4 mb-0">
+                        <img src="img/Galeria3.webp" alt="Comedor con mobiliario de madera rústica para familias en León" class="img-decorativa" style="height: 280px;">
+                        <figcaption class="small text-muted text-center mt-2">Mesas amplias para toda la familia</figcaption>
+                    </figure>
+                </section>
+            </section>
+        </section>
+
+        <!-- Ubicación y Reseñas Google Maps -->
+        <section id="visitanos" class="py-5" style="background-color: var(--color-negro-logo); color: #ffffff;">
+            <article class="container py-3">
+                <section class="row align-items-center g-5">
+                    <aside class="col-lg-5">
+                        <span class="hero-subtitle">Visítanos</span>
+                        <h2 class="display-5 text-white mt-1 mb-3">Encuéntranos en León</h2>
+                        <address class="text-light opacity-75 not-italic">
+                            <p class="mb-2">📍 <strong>Ubicación:</strong> Búscanos en Google Maps como <em>"Flor de Cempasúchil"</em>.</p>
+                            <p class="mb-2">🕒 <strong>Horarios:</strong> Martes a domingo de 8:30 am a 1:30 pm (Lunes cerrado por descanso de cocina).</p>
+                            <p class="mb-4">📞 <strong>Atención y pedidos:</strong> Directamente en mostrador o vía WhatsApp.</p>
+                        </address>
+                        <div class="p-3 rounded border border-secondary bg-dark mb-4">
+                            <p class="small mb-2 text-warning">⭐ <strong>¿Ya desayunaste con nosotros?</strong></p>
+                            <p class="small text-light opacity-75 mb-3">Tu reseña nos ayuda a que más personas disfruten del sabor casero tradicional.</p>
+                            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm">Calificar en Google Maps</a>
+                        </div>
+                    </aside>
+                    <figure class="col-lg-7 mb-0">
+                        <!-- Reemplazar con el iframe oficial del perfil de Google Maps -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119438.41113289053!2d-101.76100511197943!3d21.115858607153775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf610e7b87c9%3A0xc3b5ed7dfb3d2ef9!2zTGVwbiwgR3RvLg!5e0!3m2!1ses-419!2smx!4v1700000000000!5m2!1ses-419!2smx" width="100%" height="360" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de ubicación Flor de Cempasúchil en León"></iframe>
+                    </figure>
+                </section>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <section class="container">
+            <p class="mb-1 text-white">&copy; 2026 Restaurante Flor de Cempasúchil. Todos los derechos reservados.</p>
+            <p class="small text-muted mb-0">Proyecto formativo de Mercadotecnia Digital | Universidad Tecnológica de León (UTL).</p>
+        </section>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
